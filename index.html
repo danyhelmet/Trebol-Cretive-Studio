@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trebol Studio - Agencia de Publicidad</title>
+    <link rel="stylesheet" href="css/styles.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Header con Logo y Menú -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="img/Logo Isotipo.png" alt="Logo Trebol Studio" class="logo">
+        </div>
+        <nav class="nav-menu">
+            <ul class="menu-list">
+                <li><a href="#inicio" class="menu-link active">Inicio</a></li>
+                <li><a href="#servicios" class="menu-link">Servicios</a></li>
+                <li><a href="#portafolio" class="menu-link">Portafolio</a></li>
+                <li><a href="#valores" class="menu-link">Valores</a></li>
+                <li><a href="#contacto" class="menu-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SLIDER ===== -->
+    <section id="inicio" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('img/slide1.jpg');">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide" style="background-image: url('img/slide2.jpg');">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide" style="background-image: url('img/slide3.jpg');">
+                <div class="slide-overlay"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-word">Trebol</span>
+                <span class="title-word">Creative Studio</span>
+            </h1>
+            <p class="hero-tagline">Donde las ideas cobran vida</p>
+            <div class="hero-divider">
+                <span class="divider-line"></span>
+                <span class="divider-icon">✦</span>
+                <span class="divider-line"></span>
+            </div>
+            <p class="hero-subtitle">Agencia de Publicidad & Marketing Digital</p>
+            <a href="#servicios" class="hero-cta">Descubre más</a>
+        </div>
+
+        <div class="slider-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+
+        <button class="slider-arrow slider-prev" aria-label="Anterior">❮</button>
+        <button class="slider-arrow slider-next" aria-label="Siguiente">❯</button>
+    </section>
+
+    <!-- ===== SECCIÓN SERVICIOS ===== -->
+    <section id="servicios" class="services-section">
+        <div class="services-container">
+            <div class="section-header">
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2 class="section-title">Soluciones Creativas</h2>
+                <p class="section-desc">Transformamos tu visión en resultados extraordinarios</p>
+                <div class="title-underline">
+                    <span class="underline-line"></span>
+                    <span class="underline-icon">◆</span>
+                    <span class="underline-line"></span>
+                </div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-glow"></div>
+                                <img src="img/icon-strategy.svg" alt="Estrategia" class="service-icon">
+                            </div>
+                            <h3 class="service-title">Estrategia y Planificación</h3>
+                            <div class="service-line"></div>
+                            <p class="service-hint">Ver más →</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h3 class="service-back-title">Estrategia</h3>
+                            <p class="service-description">Análisis de mercado, investigación de competencia y planificación estratégica para alcanzar tus objetivos de negocio.</p>
+                            <ul class="service-features">
+                                <li>📊 Análisis de mercado</li>
+                                <li>🎯 Definición de KPIs</li>
+                                <li>📈 Plan de crecimiento</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-glow"></div>
+                                <img src="img/icon-web.svg" alt="Desarrollo Web" class="service-icon">
+                            </div>
+                            <h3 class="service-title">Desarrollo Web y Tecnología</h3>
+                            <div class="service-line"></div>
+                            <p class="service-hint">Ver más →</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h3 class="service-back-title">Tecnología</h3>
+                            <p class="service-description">Sitios web modernos, aplicaciones y soluciones tecnológicas que destacan tu marca en el mundo digital.</p>
+                            <ul class="service-features">
+                                <li>🌐 Sitios web responsive</li>
+                                <li>⚡ Apps móviles</li>
+                                <li>🔒 Soluciones seguras</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-glow"></div>
+                                <img src="img/icon-design.svg" alt="Diseño Gráfico" class="service-icon">
+                            </div>
+                            <h3 class="service-title">Diseño Gráfico y Branding</h3>
+                            <div class="service-line"></div>
+                            <p class="service-hint">Ver más →</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h3 class="service-back-title">Branding</h3>
+                            <p class="service-description">Identidad visual impactante que comunica los valores de tu marca y conecta con tu audiencia.</p>
+                            <ul class="service-features">
+                                <li>🎨 Logotipos únicos</li>
+                                <li>📋 Manual de marca</li>
+                                <li>✨ Diseño editorial</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-glow"></div>
+                                <img src="img/icon-video.svg" alt="Producción Audiovisual" class="service-icon">
+                            </div>
+                            <h3 class="service-title">Producción Audiovisual</h3>
+                            <div class="service-line"></div>
+                            <p class="service-hint">Ver más →</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h3 class="service-back-title">Audiovisual</h3>
+                            <p class="service-description">Videos profesionales, animaciones y contenido multimedia que cuenta tu historia de forma memorable.</p>
+                            <ul class="service-features">
+                                <li>🎬 Videos corporativos</li>
+                                <li>🎞️ Animaciones 2D/3D</li>
+                                <li>📹 Producción completa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon-wrapper">
+                                <div class="service-icon-glow"></div>
+                                <img src="img/icon-marketing.svg" alt="Marketing Digital" class="service-icon">
+                            </div>
+                            <h3 class="service-title">Marketing Digital</h3>
+                            <div class="service-line"></div>
+                            <p class="service-hint">Ver más →</p>
+                        </div>
+                        <div class="service-card-back">
+                            <h3 class="service-back-title">Marketing</h3>
+                            <p class="service-description">Campañas digitales que generan leads, aumentan ventas y posicionan tu marca en el mercado.</p>
+                            <ul class="service-features">
+                                <li>📱 Redes sociales</li>
+                                <li>🔍 SEO & SEM</li>
+                                <li>📧 Email marketing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN PORTAFOLIO ===== -->
+    <section id="portafolio" class="portfolio-section">
+        <div class="portfolio-container">
+            <div class="section-header light">
+                <span class="section-tag">Nuestro Trabajo</span>
+                <h2 class="section-title">Portafolio</h2>
+                <p class="section-desc">Proyectos que hablan por sí solos</p>
+                <div class="title-underline">
+                    <span class="underline-line"></span>
+                    <span class="underline-icon">◆</span>
+                    <span class="underline-line"></span>
+                </div>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item large">
+                    <img src="img/agencia-hero.jpg" alt="Proyecto 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Branding</span>
+                            <h3 class="portfolio-title">Aurum Botanica</h3>
+                            <p class="portfolio-desc">Identidad visual completa para marca de skincare de lujo</p>
+                            <button class="portfolio-btn">Ver proyecto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/slide1.jpg" alt="Proyecto 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web</span>
+                            <h3 class="portfolio-title">TechVision</h3>
+                            <p class="portfolio-desc">Sitio web corporativo</p>
+                            <button class="portfolio-btn">Ver proyecto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/slide2.jpg" alt="Proyecto 3" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Marketing</span>
+                            <h3 class="portfolio-title">DataPro</h3>
+                            <p class="portfolio-desc">Campaña digital integral</p>
+                            <button class="portfolio-btn">Ver proyecto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/slide3.jpg" alt="Proyecto 4" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Diseño</span>
+                            <h3 class="portfolio-title">Lux Brand</h3>
+                            <p class="portfolio-desc">Sistema de identidad</p>
+                            <button class="portfolio-btn">Ver proyecto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="img/portafolio-bg.jpg" alt="Proyecto 5" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Audiovisual</span>
+                            <h3 class="portfolio-title">GreenLife</h3>
+                            <p class="portfolio-desc">Video promocional</p>
+                            <button class="portfolio-btn">Ver proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN VALORES ===== -->
+    <section id="valores" class="values-section">
+        <div class="values-container">
+            <div class="section-header">
+                <span class="section-tag">Lo Que Nos Define</span>
+                <h2 class="section-title">Nuestros Valores</h2>
+                <p class="section-desc">Los principios que guían cada proyecto</p>
+                <div class="title-underline">
+                    <span class="underline-line"></span>
+                    <span class="underline-icon">◆</span>
+                    <span class="underline-line"></span>
+                </div>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card" data-value="creatividad">
+                    <div class="value-number">01</div>
+                    <div class="value-icon">💡</div>
+                    <h3 class="value-title">Creatividad</h3>
+                    <p class="value-desc">Pensamos fuera de la caja para crear soluciones únicas que destaquen tu marca.</p>
+                    <div class="value-glow"></div>
+                </div>
+
+                <div class="value-card" data-value="innovacion">
+                    <div class="value-number">02</div>
+                    <div class="value-icon">🚀</div>
+                    <h3 class="value-title">Innovación</h3>
+                    <p class="value-desc">Adoptamos las últimas tendencias y tecnologías para mantenerte a la vanguardia.</p>
+                    <div class="value-glow"></div>
+                </div>
+
+                <div class="value-card" data-value="compromiso">
+                    <div class="value-number">03</div>
+                    <div class="value-icon">🤝</div>
+                    <h3 class="value-title">Compromiso</h3>
+                    <p class="value-desc">Nos involucramos profundamente en cada proyecto como si fuera nuestro.</p>
+                    <div class="value-glow"></div>
+                </div>
+
+                <div class="value-card" data-value="excelencia">
+                    <div class="value-number">04</div>
+                    <div class="value-icon">⭐</div>
+                    <h3 class="value-title">Excelencia</h3>
+                    <p class="value-desc">No nos conformamos con lo bueno, buscamos la perfección en cada detalle.</p>
+                    <div class="value-glow"></div>
+                </div>
+
+                <div class="value-card" data-value="transparencia">
+                    <div class="value-number">05</div>
+                    <div class="value-icon">🔍</div>
+                    <h3 class="value-title">Transparencia</h3>
+                    <p class="value-desc">Comunicación clara y honesta en cada etapa del proceso.</p>
+                    <div class="value-glow"></div>
+                </div>
+
+                <div class="value-card" data-value="pasion">
+                    <div class="value-number">06</div>
+                    <div class="value-icon">❤️</div>
+                    <h3 class="value-title">Pasión</h3>
+                    <p class="value-desc">Amamos lo que hacemos y eso se refleja en cada proyecto.</p>
+                    <div class="value-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN CONTACTO ===== -->
+    <section id="contacto" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header left">
+                        <span class="section-tag">Hablemos</span>
+                        <h2 class="section-title">Contacto</h2>
+                        <p class="section-desc">¿Listo para llevar tu marca al siguiente nivel?</p>
+                        <div class="title-underline left">
+                            <span class="underline-line"></span>
+                            <span class="underline-icon">◆</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div class="contact-text">
+                                <h4>Ubicación</h4>
+                                <p>Bo. Santa Lucia, Comayagua, Honduras</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>trebol.studio.agency@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div class="contact-text">
+                                <h4>Teléfono</h4>
+                                <p>+504 3292-3179</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <div class="contact-text">
+                                <h4>Horario</h4>
+                                <p>Lun - Sab: 8:00 - 22:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="nombre" name="nombre" placeholder=" " required>
+                                <label for="nombre">Nombre</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder=" " required>
+                                <label for="email">Email</label>
+                                <span class="form-line"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefono" name="telefono" placeholder=" ">
+                            <label for="telefono">Teléfono</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="asunto" name="asunto" placeholder=" " required>
+                            <label for="asunto">Asunto</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder=" " required></textarea>
+                            <label for="mensaje">Mensaje</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="form-submit">
+                            <span>Enviar mensaje</span>
+                            <span class="submit-arrow">→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="img/Logo Final claro.png" alt="Trebol Studio" class="footer-logo">
+                    <p class="footer-tagline">Donde las ideas cobran vida</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <img src="img/icon-youtube.svg" alt="YouTube" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link" aria-label="TikTok">
+                        <img src="img/icon-tiktok.svg" alt="TikTok" class="social-icon">
+                    </a>
+                    <a href="https://www.facebook.com/TrebolStudiohn" class="social-link" aria-label="Facebook">
+                        <img src="img/icon-facebook.svg" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <img src="img/icon-instagram.svg" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link" aria-label="WhatsApp">
+                        <img src="img/icon-whatsapp.svg" alt="WhatsApp" class="social-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Trebol Creative Studio. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos de uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
